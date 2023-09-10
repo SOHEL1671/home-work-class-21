@@ -1,0 +1,73 @@
+style.css
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: #333;
+}
+h1,h5{
+    color: #ffffff;
+    text-align:center;
+}
+#banner .banner_slider .banner_slider_item{
+    height: 500px;
+    background-position: center;
+}
+#banner .banner_slider .banner_slider_arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: orangered;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+    line-height: 40px;
+}
+#banner .banner_slider .banner_slider_arrow:hover{
+    background: #fdd523;
+}
+#banner .banner_slider ul.banner_slider_dots{
+    display: flex;
+    flex-wrap: wrap;
+}
+#banner .banner_slider ul.banner_slider_dots li{
+    line-height: 0;
+    margin: 0 5px;
+}
+#banner .banner_slider ul.banner_slider_dots li button{
+    width: 10px;
+    height: 5px;
+    background: none;
+    border: none;
+    font-size: 0;
+    border-radius: 5px;
+    background-color: rgb(245, 225, 5);
+    cursor: pointer;
+    transition: .5s;
+}
+#banner .banner_slider ul.banner_slider_dots li.slick-active button{
+    width: 20px;
+}
+#backToTop{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: orangered;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    position: fixed;
+    right: 50px;
+    bottom: 80%;
+    opacity: 0;
+    visibility: hidden;
+}
+#backToTop:hover{
+    background: rgb(243, 225, 19);
+}
+#backToTop.show{
+    bottom: 50px;
+    opacity: 1;
+    visibility: visible;
+}
